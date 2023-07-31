@@ -1,0 +1,60 @@
+h4{
+    font-size: 2em;;
+    background-color: chocolate;
+    text-align: center;
+}
+
+/*icons*/
+.html{
+    width:60%;
+    height:50vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.html_1{
+    width:40%;
+    height:50vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.css{
+    float: left;
+    text-align: left;
+}
+#icons{
+    text-align: center;
+}
+.fa-solid.fa-house.fa-5x{
+    color: beige;
+}
+.fa-solid.fa-house.fa-5x:hover{
+    color: aqua;
+}
+.icons a{
+    text-decoration: none;
+}
+.pagination{
+    text-align: center ;
+    font-size: 2em;
+    position: relative;
+    top: -665px;
+    left: -400px;
+}
+.pagination a{
+    color: black ;
+    text-decoration: none ;
+    padding: 8px 15px ;
+    display: inline-block ;
+}
+.pagination a.active{
+    font-weight: bold ;
+    border-radius: 5px ;
+    font-weight:lighter ;
+}
+.pagination a:hover{
+    text-decoration:underline;
+}

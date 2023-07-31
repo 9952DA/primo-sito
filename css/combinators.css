@@ -1,0 +1,56 @@
+h4{
+    font-size: 2em;;
+    background-color: chocolate;
+    text-align: center;
+}
+#container{
+    border: 2px solid;
+}
+#container > p{
+    background-color: yellow;
+}
+.html{
+    width:50%;
+    height:30vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.css{
+    float: left;
+    text-align: left;
+}
+#spiegazione{
+    position: relative;
+    left: 240px;
+    top: -170px;
+    color: rgb(197, 197, 0);
+}
+.spiegaione1{
+    position: relative;
+    left: 365px;
+    top: -210px;
+    color: black;
+}
+.pagination{
+    text-align: center ;
+    font-size: 2em;
+    position: relative;
+    top: -610px;
+    left: -400px;
+}
+.pagination a{
+    color: black ;
+    text-decoration: none ;
+    padding: 8px 15px ;
+    display: inline-block ;
+}
+.pagination a.active{
+    font-weight: bold ;
+    border-radius: 5px ;
+    font-weight:lighter ;
+}
+.pagination a:hover{
+    text-decoration:underline;
+}

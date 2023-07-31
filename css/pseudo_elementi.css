@@ -1,0 +1,73 @@
+h4{
+    font-size: 2em;;
+    background-color: chocolate;
+    text-align: center;
+}
+
+/* pseudo-elementi */
+.html{
+    width:50%;
+    height:100vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.css{
+    float: left;
+    text-align: left;
+}
+
+#pseudo_elementi::first-letter{
+    font-size: 200%;
+    font-style: italic;
+}
+#pseudo_elementi1::first-line{
+    background-color: chartreuse;
+}
+#pseudo_elementi1::selection{
+    color: black;
+    background-color: red;
+}
+#fruit li::marker{
+    content: "→";
+}
+#mela::before{
+    content: "🍎";
+}
+#pesca::before{
+    content: "🍑";
+}
+#arancia::before{
+    content: "🍊";
+}
+#mela::after{
+    content: "✔";
+    color: green;
+}
+#pesca::after{
+    content: "⨉";
+    color: red;
+    font-weight:bold;
+}
+#arancia::after{
+    content: "✔";
+    color: green;
+}
+
+#posizione_1{
+    position: relative;
+    top:100px;
+}
+#posizione_2{
+    position: relative;
+    top:50px;
+}
+#posizione_3{
+    position: relative;
+    top:270px;
+}
+#posizione_4{
+    position: relative;
+    top:110px;
+}

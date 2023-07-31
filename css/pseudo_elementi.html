@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!--external css-->
+         <link rel="stylesheet" href="pseudo_elementi.css">
+
+    </head>
+
+    <body >
+
+   
+        <!-- pseudo-elementi -->
+        <h4>Pseudo-elementi</h4>
+
+        <h1 id="pseudo_elementi"> Hello </h1>
+
+        <p id="pseudo_elementi1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusantium sapiente sint expedita qui labore quis vero nisi dignissimos similique. Dolores optio sit, illo repudiandae perspiciatis ipsum quas accusantium provident?</p>
+        
+        <ul id="fruit">
+            <li id="mela"> mela </li>
+            <li id="pesca"> pesca </li>
+            <li id="arancia"> arancia </li>
+        </ul>
+        <div  class="html">
+            <h1>HTML</h1>
+            <span style="color: gray" class="css">
+                <<span style="color: blue">h1 </span><span style="color:deepskyblue"> id </span> = <span style="color:chocolate"> "pseudo_elementi" </span> ><<span style="color: gray">/</span><span style="color:blue">h1</span> >
+
+                <div id="posizione_1">
+                <<span style="color: blue">p </span><span style="color:deepskyblue"> id </span> = <span style="color:chocolate"> "pseudo_elementi1" </span> ><<span style="color: gray">/</span><span style="color:blue">p</span> >
+                </div>
+
+                <div id="posizione_3">
+                <<span style="color:blue" >ul </span> <span style="color:deepskyblue"> id </span> = <span style="color:chocolate"> "frut" </span>> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <<span style="color: blue">li </span> <span style="color:deepskyblue"> id </span> = <span style="color:chocolate"> "mela" </span> > <span style="color:black"> mela </span> <<span style="color: gray">/</span><span style="color: blue">li </span> ><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <<span style="color: blue">li </span> <span style="color:deepskyblue"> id </span> = <span style="color:chocolate"> "pesca" </span> > <span style="color:black"> pesca </span> <<span style="color: gray">/</span><span style="color: blue">li </span> ><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <<span style="color: blue">li </span> <span style="color:deepskyblue"> id </span> = <span style="color:chocolate"> "arancia" </span> > <span style="color:black"> arancia </span> <<span style="color: gray">/</span><span style="color: blue">li </span> ><br>
+                <<span style="color: gray">/</span><span style="color:blue">ul</span> > <br>
+                </div>
+            </span>
+            <br>
+        </div>
+        <div class="html">
+            <h1>CSS</h1>
+            <span style="color: deepskyblue" class="css">
+                <span style="color: rgb(197, 197, 0)">#pseudo_elementi::first-letter{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                font-size<span style="color: gray">:</span><span style="color: rgb(153, 228, 41)"> 200% </span><span style="color: gray">;</span><br>
+                &nbsp;&nbsp;&nbsp;
+                font-style<span style="color: gray">:</span><span style="color: chocolate"> italic </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+
+                <div id="posizione_2">
+                <span style="color: rgb(197, 197, 0)">#pseudo_elementi1::first-line{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                background-color<span style="color: gray">:</span><span style="color: chocolate"> chartreuse </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+
+                <span style="color: rgb(197, 197, 0)">#pseudo_elementi1::selection{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                color<span style="color: gray">:</span><span style="color: chocolate"> black </span><span style="color: gray">;</span><br>
+                &nbsp;&nbsp;&nbsp;
+                background-color<span style="color: gray">:</span><span style="color: chocolate"> red </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+                </div>
+
+                <div id="posizione_4">
+                <span style="color: rgb(197, 197, 0)">#fruit li::marker{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                content<span style="color: gray">:</span><span style="color: chocolate"> "→" </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+
+                <span style="color: rgb(197, 197, 0)">#mela::before{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                content<span style="color: gray">:</span><span style="color: chocolate"> "🍎" </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+
+                <span style="color: rgb(197, 197, 0)">#pesca::before{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                content<span style="color: gray">:</span><span style="color: chocolate"> "🍑" </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+
+                <span style="color: rgb(197, 197, 0)">#arancia::before{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                content<span style="color: gray">:</span><span style="color: chocolate"> "🍊" </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+
+                <span style="color: rgb(197, 197, 0)">#mela::after{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                content<span style="color: gray">:</span><span style="color: chocolate"> "✔" </span><span style="color: gray">;</span><br>
+                &nbsp;&nbsp;&nbsp;
+                color<span style="color: gray">:</span><span style="color: chocolate"> green </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+
+                <span style="color: rgb(197, 197, 0)">#pesca::after{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                content<span style="color: gray">:</span><span style="color: chocolate"> "⨉" </span><span style="color: gray">;</span><br>
+                &nbsp;&nbsp;&nbsp;
+                color<span style="color: gray">:</span><span style="color: chocolate"> red </span><span style="color: gray">;</span><br>
+                &nbsp;&nbsp;&nbsp;
+                font-weight<span style="color: gray">:</span><span style="color: chocolate"> "bold" </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+
+                <span style="color: rgb(197, 197, 0)">#arancia::after{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                content<span style="color: gray">:</span><span style="color: chocolate"> "✔" </span><span style="color: gray">;</span><br>
+                &nbsp;&nbsp;&nbsp;
+                color<span style="color: gray">:</span><span style="color: chocolate"> green </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+                </div>
+            </span>
+        </div>
+
+    </body>
+</html>

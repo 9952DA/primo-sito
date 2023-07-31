@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!--external css-->
+         <link rel="stylesheet" href="combinators.css">
+
+    </head>
+
+    <body >
+
+   
+        <!-- combinators -->
+        <h4>Combinators</h4>
+        
+        <div id="container">
+           <p> this is n.1 </p>
+           <p> this is n.2 </p>
+           <div>
+               <p> this is n.3 </p>
+           </div>
+        </div>        
+        <p> this is n.4 </p>
+        <p> this is n.5 </p>
+
+        <div  class="html">
+            <h1>HTML</h1>
+            <span style="color: gray" class="css"> 
+                <<span style="color: blue">div</span><span style="color:deepskyblue"> id </span> = <span style="color:chocolate"> " container " </span> > <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <<span style="color: blue">p</span>> <span style="color:black"> this is n.1 </span>  <<span style="color: gray">/</span><span style="color: blue">p</span>><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <<span style="color: blue">p</span>> <span style="color:black"> this is n.2 </span>  <<span style="color: gray">/</span><span style="color: blue">p</span>><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <<span style="color: blue">div</span>> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <<span style="color: blue">p</span>> <span style="color:black"> this is n.3 </span> <<span style="color: gray">/</span><span style="color: blue">p</span>><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <<span style="color: gray">/</span><span style="color: blue">div</span>> <br>
+                <<span style="color: gray">/</span><span style="color: blue">div</span>> <br>
+                <<span style="color: blue">p</span>> <span style="color:black"> this is n.4 </span> <<span style="color: gray">/</span><span style="color: blue">p</span>><br>
+                <<span style="color: blue">p</span>> <span style="color:black"> this is n.5 </span> <<span style="color: gray">/</span><span style="color: blue">p</span>><br>
+            </span>
+            <br>
+        </div>
+
+        <div class="html">
+            <h1>CSS</h1>
+            <span style="color: deepskyblue" class="css"> 
+                <span style="color: rgb(197, 197, 0)">#container{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                border<span style="color: gray">:</span><span style="color: rgb(153, 228, 41)"> 2px </span><span style="color: chocolate"> solid </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br>
+
+                <span style="color: rgb(197, 197, 0)">#container > p{</span> <br>
+                &nbsp;&nbsp;&nbsp;
+                background-color<span style="color: gray">:</span><span style="color: chocolate"> yellow </span><span style="color: gray">;</span><br>
+                <span style="color: rgb(197, 197, 0)">}</span> <br><br><br><br><br><br>
+            
+                <h2 id="spiegazione">combinators<span style="color:black">:</span></h2>
+                <div class="spiegaione1">
+                <ul >
+                    <li>&nbsp;&nbsp;    discendenti</li>
+                    <li><span style="color: rgb(197, 197, 0)">> </span>figli</li>
+                    <li><span style="color: rgb(197, 197, 0)">~ </span>fratelli (figli del body)</li>
+                    <li><span style="color: rgb(197, 197, 0)">+ </span>fratello più vicino</li>
+                </ul></div>
+            </span> 
+        </div>
+
+        <div class = "pagination" >
+            <a href = "http://127.0.0.1:5500/sito_css.html" class = "active" > Home </a>
+        </div >
+    </body>
+</html>

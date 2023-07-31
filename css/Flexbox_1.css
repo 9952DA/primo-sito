@@ -1,0 +1,112 @@
+h4{
+    font-size: 2em;;
+    background-color: chocolate;
+    text-align: center;
+}
+/* Flexbox */
+.html{
+    width:40%;
+    height:100vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.html_1{
+    width:60%;
+    height:100vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.css{
+    float: left;
+    text-align: left;
+}
+#flex-direction{
+    color:chocolate;
+    position: relative;
+    top:-772px;
+    left: 180px;
+}
+#flex-wrap{
+    color:chocolate;
+    position: relative;
+    top:-788px;
+    left: 180px;
+}
+#align-content{
+    color:chocolate;
+    position: relative;
+    top:-804px;
+    left: 180px;
+}
+.conteiner{
+    border:10px solid;
+    height:50vh;
+    display: flex;
+    flex-direction: row;
+    /*se si usa wrap (justify-content, align-items) sono inutili*/
+    flex-wrap/*immagine stretchata*/:  wrap;
+    align-content: center;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.box{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    font-size: 400%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+#box1_0{
+    background-color: red;
+}
+#box2_0{
+    background-color: orange;
+}
+#box3_0{
+    background-color: yellow;
+}
+#box4_0{
+    background-color: green;
+}
+#box5_0{
+    background-color: blue;
+}
+#box6_0{
+    background-color: purple;
+}
+#box7_0{
+    background-color: red;
+}
+#box8_0{
+    background-color: orange;
+}
+#box9_0{
+    background-color: yellow;
+}
+.pagination{
+    text-align: center ;
+    font-size: 2em;
+    position: relative;
+    top: -1530px;
+    left: -400px;
+}
+.pagination a{
+    color: black ;
+    text-decoration: none ;
+    padding: 8px 15px ;
+    display: inline-block ;
+}
+.pagination a.active{
+    font-weight: bold ;
+    border-radius: 5px ;
+    font-weight:lighter ;
+}
+.pagination a:hover{
+    text-decoration:underline;
+}

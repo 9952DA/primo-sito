@@ -1,0 +1,58 @@
+h4{
+    font-size: 2em;;
+    background-color: chocolate;
+    text-align: center;
+}
+
+.html{
+    width:50%;
+    height:50vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.css{
+    float: left;
+    text-align: left;
+}
+#border{
+    border-style:solid;
+    border-width: 5px;
+    border-color: purple;
+    border-radius: 20px;
+}
+#border1{
+    border-bottom: 5px dashed blue;
+    border-top: 5px dotted red;
+    border-right: 5px double green;
+    border-left: 5px groove black;
+    border-radius: 10px;
+}
+#border2{
+    border-style:inset;
+}
+#border3{
+    border-style:outset;
+}
+.pagination{
+    text-align: center ;
+    font-size: 2em;
+    position: relative;
+    top: -850px;
+    left: -400px;
+}
+.pagination a{
+    color: black ;
+    text-decoration: none ;
+    padding: 8px 15px ;
+    display: inline-block ;
+}
+.pagination a.active{
+    font-weight: bold ;
+    border-radius: 5px ;
+    font-weight:lighter ;
+}
+.pagination a:hover{
+    text-decoration:underline;
+}

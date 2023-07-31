@@ -1,0 +1,64 @@
+h4{
+    font-size: 2em;;
+    background-color: chocolate;
+    text-align: center;
+}
+
+/* barra di navigazione */
+.navbar{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+.navbar a:hover{
+    background-color:lightgray;
+}
+.navbar li{
+    float: left;
+    width: 25%;
+}
+.html{
+    width:50%;
+    height:60vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.css{
+    float: left;
+    text-align: left;
+}
+.pagination{
+    text-align: center ;
+    font-size: 2em;
+    position: relative;
+    top: -730px;
+    left: -400px;
+}
+.pagination a{
+    color: black ;
+    text-decoration: none ;
+    padding: 8px 15px ;
+    display: inline-block ;
+}
+.pagination a.active{
+    font-weight: bold ;
+    border-radius: 5px ;
+    font-weight:lighter ;
+}
+.pagination a:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,68 @@
+h4{
+    font-size: 2em;;
+    background-color: chocolate;
+    text-align: center;
+}
+
+/* Dropdown menu*/
+.html{
+    width:50%;
+    height:70vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.css{
+    float: left;
+    text-align: left;
+}
+.dropdown button{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: white;
+}
+.dropdown .content{
+    background-color: antiquewhite;
+    position: absolute;
+    box-shadow: 2px 2px 5px black;
+    width:200px;
+    text-align: center;
+    display: none;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown a:hover{
+    background-color: antiquewhite;
+}
+.pagination{
+    text-align: center ;
+    font-size: 2em;
+    position: relative;
+    top: -895px;
+    left: -400px;
+}
+.pagination a{
+    color: black ;
+    text-decoration: none ;
+    padding: 8px 15px ;
+    display: inline-block ;
+}
+.pagination a.active{
+    font-weight: bold ;
+    border-radius: 5px ;
+    font-weight:lighter ;
+}
+.pagination a:hover{
+    text-decoration:underline;
+}

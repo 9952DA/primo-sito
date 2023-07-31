@@ -1,0 +1,84 @@
+h4{
+    font-size: 2em;
+    background-color: chocolate;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* pseudo-classi */
+.html{
+    width:50%;
+    height:100vh;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.css{
+    float: left;
+    text-align: left;
+}
+
+#pseudo-classi:not(:hover){
+    font-size: 20px;
+    background-color: red;
+}
+#pseudo-classi:hover{
+    font-size: 30px;
+    background-color: green;
+}
+#pseudo-classi:active{
+    font-size: 40px;
+    background-color: blue;
+}
+
+#pseudo2:nth-child(even){
+    background-color: blue;
+}
+
+#pseudo3{
+    font-size: 3em;
+}
+#pseudo3 p{
+    background-color:blueviolet;
+    display: none;
+}
+#pseudo3:hover p{
+    display: inline;
+} 
+
+#exp_1{
+    position: relative;
+    top: 250px;
+}
+#exp_2{
+    position: relative;
+    top: 50px;
+}
+#exp_3{
+    position: relative;
+    top: 320px;
+}
+#exp_4{
+    position: relative;
+    top:270px;
+}
+
+.pagination a{
+    padding-top:0px;
+    padding-bottom: 0px;
+    background-color: black;
+    color: white ;
+    text-decoration: none ;
+    display: inline-block ;
+    border-radius: 5px ;
+}
+.pagination a:hover{
+    text-decoration:underline ;
+}
+.pagination{
+    width: 100%;
+    padding-top:0px;
+    padding-bottom: 0px;
+    font-size: 1.5em;
+}
