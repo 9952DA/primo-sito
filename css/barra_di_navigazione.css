@@ -1,10 +1,117 @@
-h4{
-    font-size: 2em;;
-    background-color: chocolate;
-    text-align: center;
+.layout_home{
+    display: grid;
+    row-gap: 10px;
 }
 
-/* barra di navigazione */
+#home{
+    height: 5vh;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: start ;
+    align-items: center ;
+}
+.testo-home{
+    font-size: 1.5em;
+    color: white ;
+    border-radius: 5px ;
+    display: inline;
+}
+#icona{
+    position: relative;
+    top:-2px;
+    color: white;
+}
+.home:hover .testo-home{
+    text-decoration:underline ;
+}
+.home{
+    text-decoration: none;
+    border-radius: 5px ;
+    background-color: gray;
+    padding:10px;
+    display: inline-block;
+}
+
+#titolo{
+    height: 8vh;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: center ;
+    align-items: center ;
+    background-color: rgb(143, 21, 0);
+    flex-shrink: 1;
+    min-height: 74px;
+    min-width: 628px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#barra_di_navigazione{
+    font-size: 4em;
+    margin: 0;
+}
+
+#testo{
+    margin-top: 0;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.titolo_esempio{
+    height: 57px;
+    background-color:rgb(218, 91, 0);
+    display: flex ;
+    flex-direction: row ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+#contenuto{
+    height: 10vh;
+    flex-shrink: 1;
+    min-height: 47px;
+}
+
+.titoli_codice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 57px;
+}
+#titolo_html_css{
+    display: flex ;
+    flex-direction: row ;
+    justify-content: center ;
+    align-items: center ;
+    background-color:rgb(218, 91, 0);
+}
+.margin_titolo_html_css{
+    margin: 0;
+}
+.scritta_html{
+    margin-right: 10px;
+}
+.scritta_css{
+    margin-left: 10px;
+}
+
+.codice1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#codice_html1{
+    display: flex ;
+    flex-direction: row ;
+    justify-content: left ;
+    align-items: start ;
+    height: 100%;
+    display: inline;
+}
+#codice_css1{
+    margin-left: 15px;
+    height: 100%;
+}
+
 .navbar{
     text-align: center;
 }
@@ -29,36 +136,22 @@ h4{
     float: left;
     width: 25%;
 }
-.html{
-    width:50%;
-    height:60vh;
-    box-sizing: border-box;
-    float: left;
-    text-align: center;
-    padding: 10px;
-}
-.css{
-    float: left;
-    text-align: left;
-}
-.pagination{
-    text-align: center ;
-    font-size: 2em;
-    position: relative;
-    top: -730px;
-    left: -400px;
-}
-.pagination a{
-    color: black ;
-    text-decoration: none ;
-    padding: 8px 15px ;
-    display: inline-block ;
-}
-.pagination a.active{
-    font-weight: bold ;
-    border-radius: 5px ;
-    font-weight:lighter ;
-}
-.pagination a:hover{
-    text-decoration:underline;
+
+@media screen and (max-width: 500px) {
+    .scritta_html {
+      width: 100%;
+      order: 1;
+    }
+    #codice_html1 {
+        width: 100%;
+        order: 2;
+    }
+    .scritta_css {
+      width: 100%;
+      order: 3;
+    }
+    #codice_css1 {
+        width: 100%;
+        order: 4;
+    }
 }
