@@ -39,6 +39,7 @@
     justify-content: center ;
     align-items: center ;
     background-color: rgb(143, 21, 0);
+    min-width: 627px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -70,12 +71,12 @@
     min-height: 47px;
 }
 
-.titoli_codice{
+#html_css{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 57px;
 }
-#titolo_html_css{
+.titolo_html_css{
+    height: 57px;
     display: flex ;
     flex-direction: row ;
     justify-content: center ;
@@ -85,28 +86,25 @@
 .margin_titolo_html_css{
     margin: 0;
 }
-.scritta_html{
+.lato_html{
     margin-right: 10px;
 }
-.scritta_css{
+.lato_css{
     margin-left: 10px;
 }
 
-.codice1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 #codice_html1{
     display: flex ;
     flex-direction: row ;
     justify-content: left ;
     align-items: start ;
-    height: 100%;
-    display: inline;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 #codice_css1{
+    margin-top: 10px;
     margin-left: 15px;
-    height: 100%;
 }
 
 .navbar{
@@ -134,21 +132,21 @@
     width: 25%;
 }
 
-@media screen and (max-width: 500px) {
-    .scritta_html {
-      width: 100%;
-      order: 1;
+@media screen and (max-width: 600px) {
+    #html_css{
+        display: grid;
+        grid-template-columns: 1fr ;
     }
-    #codice_html1 {
+    .lato_html {
+        width: 100%;
+        order: 1;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .lato_css {
         width: 100%;
         order: 2;
+        margin-left: 0;
     }
-    .scritta_css {
-      width: 100%;
-      order: 3;
-    }
-    #codice_css1 {
-        width: 100%;
-        order: 4;
-    }
+
 }
