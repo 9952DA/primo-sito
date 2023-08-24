@@ -131,7 +131,7 @@
     width: 25%;
 }
 
-@media screen and (max-width: 669px) {
+@media screen and (max-width: 900px) {
     #titolo{
         padding-top: 0px;
         padding-bottom: 0px;
